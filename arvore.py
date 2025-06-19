@@ -1,6 +1,7 @@
 vezes = int(input())
 lista = []
 quantas_arvores = dict()
+espaco = input() # como o vpl adiciona um espaco a mais antes dos testes coloquei o input para não haver problemas
 
 for _ in range (vezes):
 	while True:

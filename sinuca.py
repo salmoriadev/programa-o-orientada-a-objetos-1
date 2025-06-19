@@ -11,12 +11,8 @@ for _ in range (num_bolas-1):
 		if len(bolas) == 2:
 			break
 	bolas.pop(0)
-print(bolas)
-
-'''num_bolas = int(input())
-bolas = [int(x) for x in input().split() ]
-proximas_bolas = []
-
-for _ in range 
-bolas = proximas_bolas
-proximas_bolas = []'''
+	if bolas[0] == -1:
+	    resultado = 'branca'
+	else:
+	    resultado = 'preta'
+print(resultado)
